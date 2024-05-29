@@ -60,15 +60,3 @@ Second exemple, le fichier *e2.poly* suivant (0 est rouge, 1 est vert, 2 est ble
 ![polys](e2.png)
 
 a pour solution : [1, -1, 0, 0]
-
-## Code fourni
-
-On vous fourni un petit module de géométrie : *geo*.
-
-Celui-ci contient toutes les classes de base (points, segments, polygones) ainsi qu'un module d'affichage à base de *tycat*.
-Tous les objets de base sont affichables ainsi que les itérables et itérateurs sur des objets de base.
-Vous pouvez voir comment ça fonctionne en examinant les fichiers *hello.py* et *tycat.py*.
-
-Le fichier *main.py* est important car il sera utilisé pour les tests automatiques. Vous pouvez (devez) le modifier mais attention !
-Il faut respecter la sémantique : la sortie standard doit contenir exactement une ligne par fichier donné en argument, dans l'ordre donné.
-Chaque ligne est un *print* d'un vecteur d'entiers.
